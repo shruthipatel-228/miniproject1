@@ -1,0 +1,29 @@
+.main-container {
+     background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    text-align: center;
+     margin-top: 8px;
+}
+.sub-container{
+    width: 600px;
+}
+.heading {
+    font-size: 4rem;
+
+}
+.tagline{
+    font-size: 1.5rem;
+}
+.startBtn{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.startBtn:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}

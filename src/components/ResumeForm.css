@@ -1,0 +1,47 @@
+.form-container {
+   max-width:900px;
+    margin: auto;
+     border: 1px solid rgb(160,154,154);
+     box-shadow: 2px 2px black;
+     padding: 30px;
+
+}
+.title{
+    font-size: 30px;
+    border-left: 5px solid blue;
+    padding-left: 10px;
+}
+.input-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;/* it create 2 coloums with equal sizes*/
+    gap:20px;
+}
+input,textarea{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    width:80%;
+    margin: 20px;;
+}
+input:focus,textarea:focus{
+    border: 2px solid rgb(110, 216, 18);
+    outline: none;
+}
+.group{
+    display: flex;
+    gap:10px;
+}
+.add
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    border:none
+}
+.remove
+{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:lightblue;
+    border:none
+}

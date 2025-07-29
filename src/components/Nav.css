@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px black;
+    padding:1rem 2rem ;/*1rem=16px*/
+    border-radius: 4px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+}
+.logo {
+    font-size: 2rem;
+    color: rgb(228, 93, 197);
+}
+.navlinks {
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color:coral;
+    font-size: 1.5rem;
+}
+a:hover{
+    color: blue;
+}
